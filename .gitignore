@@ -38,6 +38,7 @@ ExportedObj/
 *.pidb
 *.booproj
 *.svd
+*.svn
 *.pdb
 *.mdb
 *.opendb
@@ -47,6 +48,10 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+sysinfo.txt
+*.unitypackage
+Assembly-CSharp*.csproj
+*.sln
 
 # Unity3D generated file on crash reports
 sysinfo.txt
@@ -57,4 +62,23 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# Entitas
+Jenny.zip
+Jenny.zip.meta
+*.userproperties
+
+# IDEs
+**/bin/Debug
+**/bin/Release
+**/packages
+*.userprefs
+*.user
+test-results
+DerivedData
+xcuserdata
+
+# OS
+Thumbs.db
+.DS_Store
 
