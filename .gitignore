@@ -52,6 +52,8 @@ sysinfo.txt
 *.unitypackage
 Assembly-CSharp*.csproj
 *.sln
+UserSettings
+.vsconfig
 
 # Unity3D generated file on crash reports
 sysinfo.txt
