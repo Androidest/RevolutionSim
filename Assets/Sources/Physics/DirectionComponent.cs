@@ -2,7 +2,7 @@
 using Entitas.CodeGeneration.Attributes;
 
 [Event(EventTarget.Self)]
-public sealed class PositionComponent : IComponent
+public sealed class DirectionComponent : IComponent
 {
-    public UnityEngine.Vector2 value;
+    public float value;
 }
